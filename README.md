@@ -89,8 +89,12 @@ Course content
         modified:   app/views/layouts/application.html.erb
         new file:   app/views/shared/_header.html.erb
 
-        
-04.3.20 Creating the Footer Partial
+### 04.3.20 Creating the Footer Partial
+        modified:   README.md
+        modified:   app/views/layouts/application.html.erb
+        new file:   app/views/shared/_footer.html.erb
+
+
 04.4.21 Moving the Rest of Layout File Content Into Index View Template
 04.5.22 Factoring Out Product Data Into A Variable
 04.6.23 Replacing Hardcoded Data With Variables In Product View Template
