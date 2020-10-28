@@ -112,8 +112,11 @@ Course content
         modified:   README.md
         modified:   app/views/products/index.html.erb
         NOTE: error is fixed
-        
-04.8.25 Eliminating Code Duplication Using Loops
+
+### 04.8.25 Eliminating Code Duplication Using Loops
+        modified:   README.md
+        modified:   app/views/products/index.html.erb
+
 04.9.26 Passing Variables To Partials
 04.10.27 Simplifying View Templates By Using Action View Helper Methods
 04.11.28 Replacing Anchor Tags With Link_to Method Challenge

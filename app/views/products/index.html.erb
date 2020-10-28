@@ -11,69 +11,46 @@
 		<div class="col-md-12 mb-2">
 			<div class="row">
 				<div class="card-deck">
-					<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-						<div class="card">
-<%
-	product = {
-		name: 'Name 1',
-		price: '$99.99',
-		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-	}
-%>
-							<img class="card-img-top img-fluid" src="http://placehold.it/140x100" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">
-								<span class="badge badge-pill badge-purple float-right"><%= product[:price] %></span>
-								<a href="detail-page.html"><%= product[:name] %></a>
-								</h5>
-								<p class="card-text">
-									<%= product[:description] %>
-								</p>
+
+					<%
+						products = [
+							{
+								image: 'http://placehold.it/140x100',
+								name: 'Name 1',
+								price: '$99.99',
+								description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+							},
+							{
+								image: 'http://placehold.it/140x100',
+								name: 'Name 2',
+								price: '$57.99',
+								description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+							},
+							{
+								image: 'http://placehold.it/140x100',
+								name: 'Name 3',
+								price: '$38.99',
+								description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+							}
+						]
+
+					%>
+					<% products.each do |product| %>
+						<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+							<div class="card">
+								<img class="card-img-top img-fluid" src="<%= product[:image] %>" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">
+									<span class="badge badge-pill badge-purple float-right"><%= product[:price] %></span>
+									<a href="detail-page.html"><%= product[:name] %></a>
+									</h5>
+									<p class="card-text">
+										<%= product[:description] %>
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-						<div class="card">
-<%
-	product = {
-		name: 'Name 2',
-		price: '$57.99',
-		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-	}
-%>
-								<img class="card-img-top img-fluid" src="http://placehold.it/140x100" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">
-								<span class="badge badge-pill badge-purple float-right"><%= product[:price] %></span>
-								<a href="detail-page.html"><%= product[:name] %></a>
-								</h5>
-								<p class="card-text">
-									<%= product[:description] %>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-						<div class="card">
-<%
-	product = {
-		name: 'Name 3',
-		price: '$38.99',
-		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-	}
-%>
-								<img class="card-img-top img-fluid" src="http://placehold.it/140x100" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">
-								<span class="badge badge-pill badge-purple float-right"><%= product[:price] %></span>
-								<a href="detail-page.html"><%= product[:name] %></a>
-								</h5>
-								<p class="card-text">
-									<%= product[:description] %>
-								</p>
-							</div>
-						</div>
-					</div>
+					<% end %>
 				</div>
 			</div>
 		</div>
