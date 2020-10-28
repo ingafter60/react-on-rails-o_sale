@@ -53,8 +53,17 @@ Course content
         modified:   README.md
         modified:   app/views/layouts/application.html.erb
         renamed:    public/index.html -> public/index1.html
-        
-03.2.15 Creating Products Controller
+
+### 03.2.15 Creating Products Controller
+	> rails g controller products
+        modified:   README.md
+        new file:   app/assets/stylesheets/products.scss
+        new file:   app/controllers/products_controller.rb
+        new file:   app/helpers/products_helper.rb
+        new file:   app/views/products/index.html.erb
+        modified:   config/routes.rb
+        new file:   test/controllers/products_controller_test.rb
+
 03.3.16 Rails View Rendering
 03.4.17 Installing Bootstrap 4
 
