@@ -78,9 +78,12 @@ Course content
         import "bootstrap/dist/css/bootstrap.min.css"
 		import "../../stylesheets/custom.css"
 
-04. Using Embedded Ruby and Rails Partials in View Templates
+## 04. Using Embedded Ruby and Rails Partials in View Templates
 
-04.1.18 Introduction to Embedded Ruby (ERB)
+### 04.1.18 Introduction to Embedded Ruby (ERB)
+        modified:   README.md
+        modified:   app/views/products/index.html.erb
+
 04.2.19 Creating and Using Rails View Partials
 04.3.20 Creating the Footer Partial
 04.4.21 Moving the Rest of Layout File Content Into Index View Template
