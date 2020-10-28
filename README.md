@@ -47,9 +47,13 @@ Course content
 	> The video was about routes and no changes were made
         modified:   README.md
 
-03. Getting Rails To Serve Up The Static Files Using Controllers and Views
+## 03. Getting Rails To Serve Up The Static Files Using Controllers and Views
 
-03.1.14 Moving the Body of Index File to the Layout File
+### 03.1.14 Moving the Body of Index File to the Layout File
+        modified:   README.md
+        modified:   app/views/layouts/application.html.erb
+        renamed:    public/index.html -> public/index1.html
+        
 03.2.15 Creating Products Controller
 03.3.16 Rails View Rendering
 03.4.17 Installing Bootstrap 4
