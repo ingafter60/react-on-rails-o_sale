@@ -64,7 +64,10 @@ Course content
         modified:   config/routes.rb
         new file:   test/controllers/products_controller_test.rb
 
-03.3.16 Rails View Rendering
+### 03.3.16 Rails View Rendering
+        modified:   README.md
+        modified:   app/views/products/index.html.erb
+
 03.4.17 Installing Bootstrap 4
 
 04. Using Embedded Ruby and Rails Partials in View Templates
