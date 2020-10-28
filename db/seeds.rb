@@ -25,21 +25,21 @@
 # This dummy data taken from the product controller
 products = Product.create([
 	{
-		image: 'http://placehold.it/140x100',
+		image_url: 'http://placehold.it/140x100',
 		name: 'Name 1',
-		price: '99.99',
+		price: 99.99,
 		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 	},
 	{
-		image: 'http://placehold.it/140x100',
+		image_url: 'http://placehold.it/140x100',
 		name: 'Name 2',
-		price: '57.99',
+		price: 57.99,
 		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 	},
 	{
-		image: 'http://placehold.it/140x100',
+		image_url: 'http://placehold.it/140x100',
 		name: 'Name 3',
-		price: '38.99',
+		price: 38.99,
 		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 	}
 ])

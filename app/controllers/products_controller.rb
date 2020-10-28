@@ -1,14 +1,9 @@
 class ProductsController < ApplicationController
 
 	def index
-		@products = products
+		@products = Product.all
 	end
 
 	private
 
-	def products
-		[
-			
-		]
-	end
 end

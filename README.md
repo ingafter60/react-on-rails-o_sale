@@ -193,8 +193,26 @@ Course content
         modified:   app/controllers/products_controller.rb
         modified:   db/seeds.rb
 
-05.5.33 Seeding Database Tables With Data
-
+### 05.5.33 Seeding Database Tables With Data
+        > rails c
+        ...
+        irb(main):001:0> Product.all()
+        irb(main):001:0> Product.find(1)
+        irb(main):001:0> Product.find(2)
+        irb(main):001:0> Product.find(3)
+        irb(main):001:0> Product.find(4)
+        ...
+        ActiveRecord::RecordNotFound
+        irb(main):006:0> Product.find_by(id: 1)
+        irb(main):006:0> Product.find_by(id: 1)
+        irb(main):007:0> Product.first
+        irb(main):007:0> Product.last
+        irb(main):009:0> Product.count()
+        modified:   README.md
+        modified:   app/controllers/products_controller.rb
+        modified:   app/views/products/_product.html.erb
+        modified:   db/seeds.rb
+        
 06. Reading Product Data
 
 06.1.34 Creating Products Controller's Show Action
