@@ -94,8 +94,12 @@ Course content
         modified:   app/views/layouts/application.html.erb
         new file:   app/views/shared/_footer.html.erb
 
+### 04.4.21 Moving the Rest of Layout File Content Into Index View Template
+        modified:   README.md
+        modified:   app/views/layouts/application.html.erb
+        modified:   app/views/products/index.html.erb
 
-04.4.21 Moving the Rest of Layout File Content Into Index View Template
+        
 04.5.22 Factoring Out Product Data Into A Variable
 04.6.23 Replacing Hardcoded Data With Variables In Product View Template
 04.7.24 Fixing Product Definition Error
