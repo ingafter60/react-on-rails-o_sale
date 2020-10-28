@@ -187,7 +187,12 @@ Course content
 ### 05.4.32 (Part 1/2) Preparing To Populate The Database Tables With Data
         modified:   README.md
         modified:   db/seeds.rb
-        
+
+### 05.4.32 (Part 2/2) Preparing To Populate The Database Tables With Data
+        modified:   README.md
+        modified:   app/controllers/products_controller.rb
+        modified:   db/seeds.rb
+
 05.5.33 Seeding Database Tables With Data
 
 06. Reading Product Data

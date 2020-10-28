@@ -7,17 +7,39 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-# Create product seed with save method
-product = Product.New(name: "Name 1", description: "Description 1", price: 59.99)
-product.save
+# # Create product seed with save method
+# product = Product.New(name: "Name 1", description: "Description 1", price: 59.99)
+# product.save
 
-# Create product seed with create method 
-# If create success it will return and stores the result in product variable
-product = Product.create(name: "Name 1", description: "Description 1", price: 59.99)
+# # Create product seed with create method 
+# # If create success it will return and stores the result in product variable
+# product = Product.create(name: "Name 1", description: "Description 1", price: 59.99)
 
-# If creating more then ONE product, we use product array
+# # If creating more then ONE product, we use product array
+# products = Product.create([
+# 	{"Name 1", description: "Description 1", price: 59.99 },
+# 	{"Name 2", description: "Description 2", price: 29.99 },
+# 	{"Name 3", description: "Description 3", price: 39.99 }
+# ])
+
+# This dummy data taken from the product controller
 products = Product.create([
-	{"Name 1", description: "Description 1", price: 59.99 },
-	{"Name 2", description: "Description 2", price: 29.99 },
-	{"Name 3", description: "Description 3", price: 39.99 }
+	{
+		image: 'http://placehold.it/140x100',
+		name: 'Name 1',
+		price: '99.99',
+		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+	},
+	{
+		image: 'http://placehold.it/140x100',
+		name: 'Name 2',
+		price: '57.99',
+		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+	},
+	{
+		image: 'http://placehold.it/140x100',
+		name: 'Name 3',
+		price: '38.99',
+		description: 'Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+	}
 ])
