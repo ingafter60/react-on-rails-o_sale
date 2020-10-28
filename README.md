@@ -12,26 +12,28 @@ Course content
 01.5.5 Installing Node.js and Yarn
 01.6.6 Installing Ruby on Rails 6
 
-02. Creating a Rails 6 Project and Discussing Rails Fundamental Concepts
+## 02. Creating a Rails 6 Project and Discussing Rails Fundamental Concepts
 
-## 02.1.7 Creating Rails 6.0 Project with MySQL Database
+### 02.1.7 Creating Rails 6.0 Project with MySQL Database
 	# passed lesson: 1-6
 	> rails new o_sale -d mysql
 	> rails db:create
-## 02.2.8 Copying Static Files To Public Folder
+
+### 02.2.8 Copying Static Files To Public Folder
         modified:   README.md
         new file:   public/detail-page.html
         new file:   public/index.html
         new file:   public/login.html
         new file:   public/new-item.html
         new file:   public/register.html
-## Create Github Repository 
+
+### Create Github Repository 
 	https://github.com/ingafter60/react-on-rails-o_sale
         modified:   README.md02.3.9 Rails Application Structure
 
-        
-02.4.10 Rails Model-View-Controller Pattern
-02.5.11 The Rails Views Folder Structure
+### 02.4.10 Rails Model-View-Controller Pattern
+	> The video was about files structures and no changes were made
+        modified:   README.md02.5.11 The Rails Views Folder Structure
 02.6.12 Introduction to Rails Routing
 02.7.13 Rails Action Controller
 
