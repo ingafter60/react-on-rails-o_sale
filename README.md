@@ -68,7 +68,15 @@ Course content
         modified:   README.md
         modified:   app/views/products/index.html.erb
 
-03.4.17 Installing Bootstrap 4
+### 03.4.17 Installing Bootstrap 4
+	> yarn add bootstrap jquery popper
+        modified:   README.md
+        modified:   app/javascript/packs/application.js
+        new file:   app/stylesheets/custom.css
+        modified:   package.json
+        modified:   yarn.lock
+        import "bootstrap/dist/css/bootstrap.min.css"
+		import "../../stylesheets/custom.css"
 
 04. Using Embedded Ruby and Rails Partials in View Templates
 
