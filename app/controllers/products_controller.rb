@@ -1,8 +1,13 @@
 class ProductsController < ApplicationController
 
 	def index
+		@products = products
+	end
 
-		@products = [
+	private
+
+	def products
+		[
 			{
 				image: 'http://placehold.it/140x100',
 				name: 'Name 1',
