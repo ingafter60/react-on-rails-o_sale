@@ -99,8 +99,10 @@ Course content
         modified:   app/views/layouts/application.html.erb
         modified:   app/views/products/index.html.erb
 
-        
-04.5.22 Factoring Out Product Data Into A Variable
+### 04.5.22 Factoring Out Product Data Into A Variable
+        modified:   app/views/layouts/application.html.erb
+        modified:   app/views/products/index.html.erb
+
 04.6.23 Replacing Hardcoded Data With Variables In Product View Template
 04.7.24 Fixing Product Definition Error
 04.8.25 Eliminating Code Duplication Using Loops
