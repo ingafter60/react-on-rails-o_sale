@@ -184,7 +184,10 @@ Course content
         modified:   README.md
         new file:   db/schema.rb	
 
-05.4.32 Preparing To Populate The Database Tables With Data
+### 05.4.32 (Part 1/2) Preparing To Populate The Database Tables With Data
+        modified:   README.md
+        modified:   db/seeds.rb
+        
 05.5.33 Seeding Database Tables With Data
 
 06. Reading Product Data
