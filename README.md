@@ -17,8 +17,14 @@ Course content
 	# passed lesson: 1-6
 	> rails new o_sale -d mysql
 	> rails db:create
-
-02.2.8 Copying Static Files To Public Folder
+## 02.2.8 Copying Static Files To Public Folder
+        modified:   README.md
+        new file:   public/detail-page.html
+        new file:   public/index.html
+        new file:   public/login.html
+        new file:   public/new-item.html
+        new file:   public/register.html
+        
 02.3.9 Rails Application Structure
 02.4.10 Rails Model-View-Controller Pattern
 02.5.11 The Rails Views Folder Structure
