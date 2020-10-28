@@ -107,8 +107,12 @@ Course content
         modified:   README.md
         modified:   app/views/products/index.html.erb
         NOTE: result with error
+
+### 04.7.24 Fixing Product Definition Error
+        modified:   README.md
+        modified:   app/views/products/index.html.erb
+        NOTE: error is fixed
         
-04.7.24 Fixing Product Definition Error
 04.8.25 Eliminating Code Duplication Using Loops
 04.9.26 Passing Variables To Partials
 04.10.27 Simplifying View Templates By Using Action View Helper Methods
