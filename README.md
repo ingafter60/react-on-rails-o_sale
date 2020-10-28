@@ -84,7 +84,12 @@ Course content
         modified:   README.md
         modified:   app/views/products/index.html.erb
 
-04.2.19 Creating and Using Rails View Partials
+### 04.2.19 Creating and Using Rails View Partials
+        modified:   README.md
+        modified:   app/views/layouts/application.html.erb
+        new file:   app/views/shared/_header.html.erb
+
+        
 04.3.20 Creating the Footer Partial
 04.4.21 Moving the Rest of Layout File Content Into Index View Template
 04.5.22 Factoring Out Product Data Into A Variable
