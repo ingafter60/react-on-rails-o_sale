@@ -143,7 +143,15 @@ Course content
         modified:   README.md
         modified:   app/controllers/products_controller.rb
 
-05.2.30 Creating The Product Model
+### 05.2.30 Creating The Product Model
+	>  rails g model product name:string description:text 'price:decimal{8.2}' image_url:string
+        modified:   README.md
+        new file:   app/models/product.rb
+        new file:   db/migrate/20201028132051_create_products.rb
+        new file:   test/fixtures/products.yml
+        new file:   test/models/product_test.rb
+
+
 05.3.31 ActiveRecord Migration
 05.4.32 Preparing To Populate The Database Tables With Data
 05.5.33 Seeding Database Tables With Data
