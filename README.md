@@ -103,7 +103,11 @@ Course content
         modified:   app/views/layouts/application.html.erb
         modified:   app/views/products/index.html.erb
 
-04.6.23 Replacing Hardcoded Data With Variables In Product View Template
+### 04.6.23 Replacing Hardcoded Data With Variables In Product View Template
+        modified:   README.md
+        modified:   app/views/products/index.html.erb
+        NOTE: result with error
+        
 04.7.24 Fixing Product Definition Error
 04.8.25 Eliminating Code Duplication Using Loops
 04.9.26 Passing Variables To Partials
