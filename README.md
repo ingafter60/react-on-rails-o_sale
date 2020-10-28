@@ -1,4 +1,5 @@
 # BUILDING SPA E-COMMERCE APPLICATION USING REACT ON RAILS 6
+https://github.com/ingafter60/react-on-rails-o_sale
 
 Course content
 
@@ -24,8 +25,11 @@ Course content
         new file:   public/login.html
         new file:   public/new-item.html
         new file:   public/register.html
+## Create Github Repository 
+	https://github.com/ingafter60/react-on-rails-o_sale
+        modified:   README.md02.3.9 Rails Application Structure
+
         
-02.3.9 Rails Application Structure
 02.4.10 Rails Model-View-Controller Pattern
 02.5.11 The Rails Views Folder Structure
 02.6.12 Introduction to Rails Routing
