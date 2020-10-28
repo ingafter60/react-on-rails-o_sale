@@ -131,10 +131,14 @@ Course content
         modified:   README.md
         modified:   app/views/shared/_header.html.erb
 
-        
-05. Creating The Model Migration and Seeding Data
+## 05. Creating The Model Migration and Seeding Data
 
-05.1.29 Moving Data From The View To The Controller
+### 05.1.29 (Part 1/2) Moving Data From The View To The Controller
+        modified:   README.md
+        modified:   app/controllers/products_controller.rb
+        modified:   app/views/products/index.html.erb
+        modified:   app/views/shared/_header.html.erb
+
 05.2.30 Creating The Product Model
 05.3.31 ActiveRecord Migration
 05.4.32 Preparing To Populate The Database Tables With Data
