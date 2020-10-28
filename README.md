@@ -43,7 +43,9 @@ Course content
 	> The video was about routes and no changes were made
         modified:   README.md
 
-02.7.13 Rails Action Controller
+### 02.7.13 Rails Action Controller
+	> The video was about routes and no changes were made
+        modified:   README.md
 
 03. Getting Rails To Serve Up The Static Files Using Controllers and Views
 
