@@ -3,11 +3,12 @@
 								<img class="card-img-top img-fluid" src="<%= variable_product[:image] %>" alt="Card image cap">
 								<div class="card-body">
 									<h5 class="card-title">
-									<span class="badge badge-pill badge-purple float-right"><%= variable_product[:price] %></span>
-									<a href="detail-page.html"><%= variable_product[:name] %></a>
+									<span class="badge badge-pill badge-purple float-right"><%= number_to_currency(variable_product[:price]) %></span>
+									<!-- <a href="detail-page.html"><%= variable_product[:name] %></a> -->
+									<%= link_to variable_product[:name], "detail-page.html" %>
 									</h5>
 									<p class="card-text">
-										<%= variable_product[:description] %>
+										<%= truncate(variable_product[:description], length: 150) %>
 									</p>
 								</div>
 							</div>

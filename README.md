@@ -122,7 +122,11 @@ Course content
         new file:   app/views/products/_product.html.erb
         modified:   app/views/products/index.html.erb
 
-04.10.27 Simplifying View Templates By Using Action View Helper Methods
+### 04.10.27 Simplifying View Templates By Using Action View Helper Methods
+        modified:   README.md
+        modified:   app/views/products/_product.html.erb
+        modified:   app/views/products/index.html.erb
+
 04.11.28 Replacing Anchor Tags With Link_to Method Challenge
 
 05. Creating The Model Migration and Seeding Data
