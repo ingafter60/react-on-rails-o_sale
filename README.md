@@ -32,15 +32,17 @@ Course content
         modified:   README.md02.3.9 Rails Application Structure
 
 ### 02.4.10 Rails Model-View-Controller Pattern
-		> The video was about files structures and no changes were made
+	> The video was about files structures and no changes were made
         modified:   README.md
 
 ## 02.5.11 The Rails Views Folder Structure       
-		> The video was about Views folder and no changes were made
+	> The video was about Views folder and no changes were made
         modified:   README.md
 
+### 02.6.12 Introduction to Rails Routing
+	> The video was about routes and no changes were made
+        modified:   README.md
 
-02.6.12 Introduction to Rails Routing
 02.7.13 Rails Action Controller
 
 03. Getting Rails To Serve Up The Static Files Using Controllers and Views
