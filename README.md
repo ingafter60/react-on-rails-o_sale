@@ -151,8 +151,39 @@ Course content
         new file:   test/fixtures/products.yml
         new file:   test/models/product_test.rb
 
+### 05.3.31 ActiveRecord Migration
+	> rails db:migrate
+	+------------------------------+
+	| Tables_in_o_sale_development |
+	+------------------------------+
+	| ar_internal_metadata         |
+	| products                     |
+	| schema_migrations            |
+	+------------------------------+
+	3 rows in set (0.00 sec)
 
-05.3.31 ActiveRecord Migration
+	mysql> desc products;
+	+-------------+--------------+------+-----+---------+----------------+
+	| Field       | Type         | Null | Key | Default | Extra          |
+	+-------------+--------------+------+-----+---------+----------------+
+	| id          | bigint       | NO   | PRI | NULL    | auto_increment |
+	| name        | varchar(255) | YES  |     | NULL    |                |
+	| description | text         | YES  |     | NULL    |                |
+	| price       | decimal(8,2) | YES  |     | NULL    |                |
+	| image_url   | varchar(255) | YES  |     | NULL    |                |
+	| created_at  | datetime(6)  | NO   |     | NULL    |                |
+	| updated_at  | datetime(6)  | NO   |     | NULL    |                |
+	+-------------+--------------+------+-----+---------+----------------+
+	7 rows in set (0.01 sec)
+ 	> rails c
+	...
+	irb(main):001:0> Product.column_names
+	   (0.8ms)  SET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483
+	=> ["id", "name", "description", "price", "image_url", "created_at", "updated_at"]
+	irb(main):002:0>
+        modified:   README.md
+        new file:   db/schema.rb	
+
 05.4.32 Preparing To Populate The Database Tables With Data
 05.5.33 Seeding Database Tables With Data
 
