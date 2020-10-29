@@ -213,9 +213,12 @@ Course content
         modified:   app/views/products/_product.html.erb
         modified:   db/seeds.rb
         
-06. Reading Product Data
+## 06. Reading Product Data
 
-06.1.34 Creating Products Controller's Show Action
+### 06.1.34 Creating Products Controller's Show Action
+        modified:   app/controllers/products_controller.rb
+        new file:   app/views/products/show.html.erb
+
 06.2.35 Replacing Product Show Data In View Template
 06.3.36 Adding Product Show Route
 06.4.37 Passing Product ID From The View To The Controller
