@@ -247,8 +247,9 @@ Course content
         modified:   app/controllers/products_controller.rb
         modified:   app/views/products/_product.html.erb
 
-        
-06.5.38 Creating The Routes For Listing Products
+## 06.5.38 Creating The Routes For Listing Products
+        modified:   README.md
+        modified:   config/routes.rb
 
 07. Creating And Editing Products
 
