@@ -1,14 +1,14 @@
-						<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
-							<div class="card">
-								<img class="card-img-top img-fluid" src="<%= variable_product[:image_url] %>" alt="Card image cap">
-								<div class="card-body">
-									<h5 class="card-title">
-									<span class="badge badge-pill badge-purple float-right"><%= number_to_currency(variable_product[:price]) %></span>
-									<%= link_to variable_product[:name], "detail-page.html" %>
-									</h5>
-									<p class="card-text">
-										<%= truncate(variable_product[:description], length: 150) %>
-									</p>
-								</div>
-							</div>
-						</div>
+<div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+	<div class="card">
+		<img class="card-img-top img-fluid" src="<%= variable_product[:image_url] %>" alt="Card image cap">
+		<div class="card-body">
+			<h5 class="card-title">
+			<span class="badge badge-pill badge-purple float-right"><%= number_to_currency(variable_product[:price]) %></span>
+			<%= link_to variable_product[:name], "/products/1" %>
+			</h5>
+			<p class="card-text">
+				<%= truncate(variable_product[:description], length: 150) %>
+			</p>
+		</div>
+	</div>
+</div>

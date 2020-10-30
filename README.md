@@ -229,8 +229,11 @@ Course content
         2. Undo Last Git Commit with reset
                 > git reset --soft HEAD~1
 
+### 06.3.36 Adding Product Show Route
+        modified:   README.md
+        modified:   app/views/products/_product.html.erb
+        modified:   config/routes.rb
 
-06.3.36 Adding Product Show Route
 06.4.37 Passing Product ID From The View To The Controller
 06.5.38 Creating The Routes For Listing Products
 
