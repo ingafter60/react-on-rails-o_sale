@@ -219,7 +219,17 @@ Course content
         modified:   app/controllers/products_controller.rb
         new file:   app/views/products/show.html.erb
 
-06.2.35 Replacing Product Show Data In View Template
+### 06.2.35 Replacing Product Show Data In View Template
+        modified:   README.md
+        modified:   app/views/products/show.html.erb
+        modified:   app/views/products/_product.html.erb
+        modified:   config/routes.rb
+        NOTE: 
+        1. The video was only  for show.html.erb
+        2. Undo Last Git Commit with reset
+                > git reset --soft HEAD~1
+
+
 06.3.36 Adding Product Show Route
 06.4.37 Passing Product ID From The View To The Controller
 06.5.38 Creating The Routes For Listing Products
