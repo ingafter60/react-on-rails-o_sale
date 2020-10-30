@@ -234,7 +234,20 @@ Course content
         modified:   app/views/products/_product.html.erb
         modified:   config/routes.rb
 
-06.4.37 Passing Product ID From The View To The Controller
+### 06.4.37 Passing Product ID From The View To The Controller
+        # Check routes for products controller only
+        > rails routes -c products
+        -------------------------------------------------------
+         Prefix Verb URI Pattern             Controller#Action
+        -------------------------------------------------------
+           root GET  /                       products#index
+        product GET  /products/:id(.:format) products#show
+        -------------------------------------------------------
+        modified:   README.md
+        modified:   app/controllers/products_controller.rb
+        modified:   app/views/products/_product.html.erb
+
+        
 06.5.38 Creating The Routes For Listing Products
 
 07. Creating And Editing Products
